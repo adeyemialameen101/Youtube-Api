@@ -1,0 +1,105 @@
+.container {
+  width: 96%;
+  margin: 0 auto;
+  /* background-color: red; */
+}
+
+header {
+  background-color: #f9f9f9;
+  border-bottom: 1px solid gray;
+}
+
+.header__container {
+  display: flex;
+  align-items: center;
+  gap: .8rem;
+  padding-top: 10px;
+  padding-block: .8rem;
+}
+
+.logo {
+  font-size: 32px;
+  color: #2e3841;
+}
+
+.download-icon {
+  font-size: 30px;
+  background-color: #ff0068;
+  color: #fff;
+  border: none;
+  padding-inline: 6px;
+  padding-block: 8px;
+  border-radius: 10px;
+  display: grid;
+  place-content: center;
+}
+
+main {
+  margin-top: 2rem;
+}
+
+.section__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* background-color: red; */
+  gap: 2rem;
+}
+
+.first-section {
+  padding-block: .5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  /* background-color: darkblue; */
+}
+
+.first-section h3 {
+  font-size: 28px;
+  margin-bottom: 1.5rem;
+}
+
+.first-section:nth-child(1) div {
+  /* background-color: green; */
+  align-items: center;
+  display: flex;
+  width: 100%;
+  text-align: center;
+}
+
+.input {
+  padding-block: 14px;
+  padding-left: 10px;
+  border: 6px solid #ff0068;
+  border-radius: 4px;
+  width: 80%;
+  max-width: 400px;
+  outline: none;
+}
+
+.input::placeholder {
+  font-size: 22px;
+  color: #bdbdbd;
+}
+
+.download-btn {
+  background-color: #ff0068;
+  margin-left: -4.5px;
+  font-size: 30px;
+  color: #fff;
+  padding-block: 9px;
+  padding-inline: 8px;
+}
+
+.video-section>video {
+  width: 90%;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.video-title {
+  color: #ff0068;
+  font-size: 24px;
+}
